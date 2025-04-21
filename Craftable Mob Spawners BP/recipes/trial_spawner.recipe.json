@@ -1,0 +1,39 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "minecraft:trial_spawner"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "#~#",
+        "#X#",
+        "~C~"
+      ],
+      "key": {
+        "X": {
+          "item": "spawners:trial_amulet"
+        },
+        "C": {
+            "item": "spawners:cage"
+        },
+        "~": {
+            "item": "minecraft:chain"
+        },
+        "#": {
+            "item": "minecraft:copper_grate"
+        }
+      },
+      "unlock": [
+          {
+              "item": "minecraft:trial_spawner"
+          }
+      ],
+      "result": {
+        "item": "minecraft:trial_spawner",
+        "count": 1
+      }
+    }
+  }

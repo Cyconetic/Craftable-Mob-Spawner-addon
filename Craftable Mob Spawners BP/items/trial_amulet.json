@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:item": {
+      "description": {
+        "identifier": "spawners:trial_amulet",
+        "category": "Items"
+      },
+      "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:icon": {
+          "texture": "spawners:trial_amulet"
+        },
+        "minecraft:display_name": {
+          "value": "Trial Amulet"
+        }
+      }
+    }
+  }
